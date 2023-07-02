@@ -17,7 +17,7 @@ rust-version = "1.56.0"
 name = "chrono"
 
 [features]
-default = ["clock", "std", "oldtime", "wasmbind"]
+default = ["clock", "std", "oldtime"]
 alloc = []
 libc = []
 std = []
